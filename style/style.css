@@ -1,0 +1,151 @@
+/*GERAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*MENU*/
+nav{
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+.menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    border: 1px solid gray;
+    width: fit-content;
+    right: 0;
+    position: inherit;
+    -moz-box-shadow: 0 3px 10px 0 rgb(100, 100, 100);
+    -webkit-box-shadow: 0 3px 10px 0 rgb(100, 100, 100);
+
+}
+.menu li{
+    position: relative;
+    float: left;
+    border-right: 1px solid rgba(78, 78, 78, 0.200);
+    background-color: gray;
+    
+}
+.menu li img{
+    display: block;
+    left: 0px;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 40px 25px;
+    display: block;
+    
+    
+}
+.menu li a:hover{
+    background-color: rgb(3, 3, 3);
+    color:rgb(255, 255, 255);
+    -moz-box-shadow: 0 3px 10px 0 rgb(123, 126, 125);
+    -webkit-box-shadow: 0 3px 10px 0 rgb(123, 126, 125);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.menu li ul{
+    position: absolute;
+    top: 105px;
+    background-color: rgb(17, 17, 17);
+    display: none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display: block;
+    animation: rotateMenu 1s ease-in-out forwards;
+    transform-origin: top center;
+}
+.menu li ul li{
+    border: 1px solid rgb(78, 78, 78, 0.200);
+    display: block;
+    width: 250px;
+}
+
+@keyframes rotateMenu {
+    0% {
+        transform: rotateY(-90deg)
+    }
+    70% {
+        transform: rotateY(20deg) 
+    }
+    100% {
+        transform: rotateY(0deg) 
+    }
+}
+
+/*BODY*/
+body{
+    background-color: rgb(146, 143, 143);
+}
+.principal{
+    padding-top: 120px;
+}
+.bloco{
+    width: 900px;
+    background: #9b9999;
+    margin: auto;
+}
+
+/*BODY TEXTO*/
+.titulo{
+    text-align: center;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    color: aliceblue;
+}
+.conteudo{
+    padding: 10px;
+    letter-spacing: 2.5px;
+    word-spacing: 4px;
+    color: rgb(54, 54, 54);
+}
+.conteudo a{
+    text-decoration: none;
+    color: blueviolet;   
+}
+.conteudo a:hover{
+    background-color: aquamarine;
+}
+.conteudo h6{
+    color: azure;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+/*BODY FOTOS*/
+.fotos{
+    margin-top: 30px;
+    padding: auto;
+}
+.fotos h6{
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border-style: double;
+    border-color: grey;
+}
+.fotos img{
+    margin: 35px;
+    position: relative;
+    width: 300px;
+    max-height: 300px;
+}
+
+/*BODY FOTOS IMAGENS LINHA*/
+.imagens-linha{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*BODY ANIMAÇÃO*/
+#animacao{
+    max-width: 97%;
+}
+#animacao h6{
+    color:aliceblue;
+}
