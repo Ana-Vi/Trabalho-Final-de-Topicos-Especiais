@@ -135,6 +135,12 @@ body{
     width: 300px;
     max-height: 300px;
 }
+.fotos video{
+    margin: 35px;
+    position: relative;
+    width: 300px;
+    max-height: 300px;
+}
 
 /*BODY FOTOS IMAGENS LINHA*/
 .imagens-linha{
