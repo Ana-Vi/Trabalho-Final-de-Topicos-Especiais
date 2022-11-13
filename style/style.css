@@ -9,6 +9,13 @@ nav{
     position: fixed;
     z-index: 10;
 }
+nav img{
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    -moz-box-shadow: 0 3px 10px 0 rgb(100,100,100);
+    -webkit-box-shadow: 0 3px 10px 0 rgb(100, 100, 100);
+}
 .menu{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -114,6 +121,10 @@ body{
     color: azure;
     font-family:'Times New Roman', Times, serif;
     font-size: 15px;
+    text-align: center;
+}
+.conteudo ul li{
+    margin-left: 25px;
 }
 
 /*BODY FOTOS*/
@@ -121,13 +132,18 @@ body{
     margin-top: 30px;
     padding: auto;
 }
-.fotos h6{
+.fotos h5{
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     text-align: center;
     border-style: double;
     border-color: grey;
+}
+.fotos h6{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 12px;
 }
 .fotos img{
     margin: 35px;

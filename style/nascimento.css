@@ -1,3 +1,6 @@
+.conteudo table th{
+    border: 1px solid;
+}
 .progresso{
     height: 50px;
     padding: 5px;
