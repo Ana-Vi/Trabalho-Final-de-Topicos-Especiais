@@ -43,39 +43,52 @@
                 <h1>Nascimento</h1>
             </div>
             <div class="conteudo"> 
-                <h6>Ana</h6> 
-                <table>
-                    <tr>
-                        <th>Data</th>
-                        <th>Local</th>
-                        <th>Signo</th>
-                        <th>Filiação</th>
-                    </tr>
-                    <tr>
-                        <th>20/01/1999</th>
-                        <th>Fortaleza - Ceará/ Brasil</th>
-                        <th>Aquário</th>
-                        <th>Maria Conceição de Freitas Barbosa e Roberval Gomes Mariano</th>
-                    </tr>
-                </table>
+                <div class="quem">
+                    <button type="button" id="ana" onclick="mostra('ana')">Ana</button>
+                    <button type="button" id="ana" onclick="mostra('nay')">Nay</button>
+                </div>
+                <div class="ana">
+                    <h6>Ana</h6> 
+                    <table>
+                        <tr>
+                            <th>Data</th>
+                            <th>Local</th>
+                            <th>Signo</th>
+                            <th>Filiação</th>
+                        </tr>
+                        <tr>
+                            <th>20/01/1999</th>
+                            <th>Fortaleza - Ceará/ Brasil</th>
+                            <th>Aquário</th>
+                            <th>Maria Conceição de Freitas Barbosa e Roberval Gomes Mariano</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="nay">
+                    <h6>Nay</h6>
+                </div>
             </div>
-            <div class="fotos">
+            <div class="fotos" id="fotos">
                 <h5>Fotos:</h5>
-                <h6>Ana</h6>
-                <div class="imagens-linha">
-                    <img src="midia/img/nascimento2.jpg" alt="Primeira foto com o pai" title="Primeira foto com o pai">
-                    <img src="midia/img/nascimento1.jfif" alt="Primeira foto da visita da vovó" title="Primeira foto da visita da vovó">
+                <div class="ana">
+                    <div class="imagens-linha">
+                        <img src="midia/img/ana/nascimento2.jpg" alt="Primeira foto com o pai" title="Primeira foto com o pai">
+                        <img src="midia/img/ana/nascimento1.jfif" alt="Primeira foto da visita da vovó" title="Primeira foto da visita da vovó">
+                    </div>
+                    <div class="imagens-linha">
+                        <img src="midia/img/ana/nascimento3.jpg" alt="Aniversário de primeiro ano" title="Aniversário de primeiro ano">
+                        <img src="midia/img/ana/nascimento4.jpg" alt="Aniversário de primeiro ano" title="Aniversário de primeiro ano">
+                    </div>
+                    <div class="imagens-linha">
+                        <img src="midia/img/ana/nascimento5.jpg" alt="Aproveitando tempo com o pai" title="Aproveitando tempo com o pai">
+                        <img src="midia/img/ana/nascimento6.jpg" alt="Aproveitando o tempo com meu ursinho de pelúcia" title="Aproveitando o tempo com meu ursinho de pelúcia">
+                    </div>
+                    <div class="imagens-linha">
+                        <img src="midia/img/ana/nascimento7.jpg" alt="Primeiras papinhas" title="Primeiras papinhas">
+                    </div>
                 </div>
-                <div class="imagens-linha">
-                    <img src="midia/img/nascimento3.jpg" alt="Aniversário de primeiro ano" title="Aniversário de primeiro ano">
-                    <img src="midia/img/nascimento4.jpg" alt="Aniversário de primeiro ano" title="Aniversário de primeiro ano">
-                </div>
-                <div class="imagens-linha">
-                    <img src="midia/img/nascimento5.jpg" alt="Aproveitando tempo com o pai" title="Aproveitando tempo com o pai">
-                    <img src="midia/img/nascimento6.jpg" alt="Aproveitando o tempo com meu ursinho de pelúcia" title="Aproveitando o tempo com meu ursinho de pelúcia">
-                </div>
-                <div class="imagens-linha">
-                    <img src="midia/img/nascimento7.jpg" alt="Primeiras papinhas" title="Primeiras papinhas">
+                <div class="nay">
+
                 </div>
             </div>
         </div>
@@ -85,5 +98,6 @@
             <div class="progresso" ><p>14%</p><h6>>></h6></div>
         </a>
     </section>
+<script src="assets/assets.js"></script>
 </body>
 </html>

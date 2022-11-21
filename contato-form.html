@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Este site é um mapa da vida das criadoras. Também é o Trabalho Final da Matéria de Tópicos Especiais para tecnologias Computacionais">
-    <title>Contato - JS</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/contato.css">
     <link rel="shortcut icon" href="midia/icon/favicon.ico" type="image/x-icon">
@@ -43,17 +43,22 @@
                 <h1>Quero conversar!</h1>
             </div>
             <div class="conteudo">
-               <form action="#" method="POST">
+               <form id="contato" name="contato">
                     <div class="quem">
-                        <button>Ana</button>
-                        <button>Nay</button>
+                        <button type="button" id="ana" onclick="mostraForm('ana.vitoria.barbosa.mariano@gmail.com')">Ana</button>
+                        <button type="button" id="nay" onclick="mostraForm('nayaramarah@gmail.com')">Nay</button>
+                        <button type="button" id="ambas" onclick="mostraForm('ana.vitoria.barbosa.mariano@gmail.com,nayaramarah@gmail.com')">Ambas</button>
                     </div>
+                    <div id="form">
+                        <input type="hidden" name="to" id="to">
                         <input type="text" placeholder="Assunto" id="assunto" name="assunto">
                         <textarea name="descricao" id="descricao" placeholder="Descrição"></textarea>
-                        <button>Enviar</button>
+                        <button type="button" id="submit">Enviar</button>
+                    </div>
                 </form>
             </div>
         </div>
     </section>
+    <script src="assets/contato.js"></script>
 </body>
 </html>

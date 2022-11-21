@@ -43,29 +43,42 @@
                 <h1>Infância</h1>
             </div>
             <div class="conteudo">
-                <h6>Ana</h6>
-                <p>Passei a primeira parte da minha infância em Fortaleza - Ceará,</p>
-                <p>Depois fui para São Luís - Maranhão junto com meu pai e minha mãe.</p>
-                <p>Foi uma aventura, e no meio dessa história, meu irmão chegou!</p>
-                <p>Os melhores momentos foram junto com eles.</p>      
+                <div class="quem">
+                    <button type="button" id="ana" onclick="mostra('ana')">Ana</button>
+                    <button type="button" id="ana" onclick="mostra('nay')">Nay</button>
+                </div>
+                <div class="ana">
+                    <h6>Ana</h6>
+                    <p>Passei a primeira parte da minha infância em Fortaleza - Ceará,</p>
+                    <p>Depois fui para São Luís - Maranhão junto com meu pai e minha mãe.</p>
+                    <p>Foi uma aventura, e no meio dessa história, meu irmão chegou!</p>
+                    <p>Os melhores momentos foram junto com eles.</p>
+                </div>
+                <div class="nay">
+                    <h6>Nay</h6>
+                </div>
             </div>
-            <div class="fotos">    
+            <div class="fotos" id="fotos">    
                 <h5>Fotos:</h5>
-                <h6>Ana</h6>
-                <div class="imagens-linha">
-                    <img src="midia/img/infancia1.jfif" alt="Rindo das palhaçadas de minha mãe" title="Rindo das palhaçadas de minha mãe">
-                    <img src="midia/img/infancia2.jfif" alt="Primeira foto com meu irmão" title="Primeira foto com meu irmão">
+                <div class="ana">
+                    <div class="imagens-linha">
+                        <img src="midia/img/ana/infancia1.jfif" alt="Rindo das palhaçadas de minha mãe" title="Rindo das palhaçadas de minha mãe">
+                        <img src="midia/img/ana/infancia2.jfif" alt="Primeira foto com meu irmão" title="Primeira foto com meu irmão">
+                    </div>
+                    <div class="imagens-linha">
+                        <img src="midia/img/ana/infancia3.jfif" alt="Primeira viagem em família" title="Primeira viagem em família">
+                    <img src="midia/img/ana/infancia4.jpg" alt="Primeira apresentação de Ballet: Bombom!" title="Primeira apresentação de Ballet: Bombom!">
+                    </div>
+                    <div class="imagens-linha">
+                        <img src="midia/img/ana/infancia5.jpg" alt="Aprendendo a lidar com as primeiras chateações da vida" title="Aprendendo a lidar com as primeiras chateações da vida">
+                        <img src="midia/img/ana/infancia6.jpg" alt="Aproveitando os momentos com meu irmão" title="Aproveitando os momentos com meu irmão">
+                    </div>
+                    <div class="imagens-linha">
+                        <img src="midia/img/ana/infancia7.jpg" alt="Sendo um neném feliz" title="Sendo um neném feliz">
+                    </div>
                 </div>
-                <div class="imagens-linha">
-                    <img src="midia/img/infancia3.jfif" alt="Primeira viagem em família" title="Primeira viagem em família">
-                <img src="midia/img/infancia4.jpg" alt="Primeira apresentação de Ballet: Bombom!" title="Primeira apresentação de Ballet: Bombom!">
-                </div>
-                <div class="imagens-linha">
-                    <img src="midia/img/infancia5.jpg" alt="Aprendendo a lidar com as primeiras chateações da vida" title="Aprendendo a lidar com as primeiras chateações da vida">
-                    <img src="midia/img/infancia6.jpg" alt="Aproveitando os momentos com meu irmão" title="Aproveitando os momentos com meu irmão">
-                </div>
-                <div class="imagens-linha">
-                    <img src="midia/img/infancia7.jpg" alt="Sendo um neném feliz" title="Sendo um neném feliz">
+                <div class="nay">
+
                 </div>
             </div>
         </div>        
@@ -75,5 +88,6 @@
             <div class="progresso"><p>28%</p><h6>>></h6></div>
         </a>
     </section>
+    <script src="assets/assets.js"></script>
 </body>
 </html>

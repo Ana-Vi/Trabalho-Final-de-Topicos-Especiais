@@ -43,22 +43,35 @@
                 <h1>Profissional</h1>
             </div>
             <div class="conteudo">
-                <h6>Ana</h6>
-                <p>Iniciei minha vida profissional muito cedo, aos 16 anos,</p>
-                <p>Participando como roteirista em um projeto audiovisual para crianças.</p>
-                <p>Apesar de não ser remunerada e o projeto não ter sido finalizado, meu interesse por tecnologia e comunicação surgiu ali.</p>
-                <p>Após chegar em Araranguá tive a necessidade de voltar a me dedicar como profissional, </p>
-                <p>E aliando minhas aprendizagens acadêmicas, comecei à trabalhar como Gerente de Ecommerce.</p>
-                <p>Após certo tempo recebi a proposta para atuar como Programadora Estagiária, onde aprendi muito e me encantei pela área da Programação </p>
-                <p>Hoje em dia sou Desenvolvedora Júnior em regime Home Office, </p>
-                <p>me sinto grata à oportunidade e com o sentimento que estou apenas no início de minha carreira</p>  
+                <div class="quem">
+                    <button type="button" id="ana" onclick="mostra('ana')">Ana</button>
+                    <button type="button" id="ana" onclick="mostra('nay')">Nay</button>
+                </div>
+                <div class="ana">
+                    <h6>Ana</h6>
+                    <p>Iniciei minha vida profissional muito cedo, aos 16 anos,</p>
+                    <p>Participando como roteirista em um projeto audiovisual para crianças.</p>
+                    <p>Apesar de não ser remunerada e o projeto não ter sido finalizado, meu interesse por tecnologia e comunicação surgiu ali.</p>
+                    <p>Após chegar em Araranguá tive a necessidade de voltar a me dedicar como profissional, </p>
+                    <p>E aliando minhas aprendizagens acadêmicas, comecei à trabalhar como Gerente de Ecommerce.</p>
+                    <p>Após certo tempo recebi a proposta para atuar como Programadora Estagiária, onde aprendi muito e me encantei pela área da Programação </p>
+                    <p>Hoje em dia sou Desenvolvedora Júnior em regime Home Office, </p>
+                    <p>me sinto grata à oportunidade e com o sentimento que estou apenas no início de minha carreira</p>  
+                </div>
+                <div class="nay">
+                    <h6>Nay</h6>
+                </div>
             </div>
-            <div class="fotos">
+            <div class="fotos" id="fotos">
                 <h5>Fotos:</h5>
-                <h6>Ana</h6>
-                <div class="imagens-linha">
-                    <img src="midia/img/profissional1.jpg" alt="Imagem demonstrativa" title="Imagem demonstrativa">
-                    <img src="midia/img/profissional2.jpg" alt="Imagem demonstrativa" title="Imagem demonstrativa">
+                <div class="ana">
+                    <div class="imagens-linha">
+                        <img src="midia/img/ana/profissional1.jpg" alt="Imagem demonstrativa" title="Imagem demonstrativa">
+                        <img src="midia/img/ana/profissional2.jpg" alt="Imagem demonstrativa" title="Imagem demonstrativa">
+                    </div>
+                </div>
+                <div class="nay">
+
                 </div>
             </div>
         </div>
@@ -68,5 +81,6 @@
             <div class="progresso"><p>70%</p><h6>>></h6></div>
         </a>
     </section>
+    <script src="assets/assets.js"></script>
 </body>
 </html>
