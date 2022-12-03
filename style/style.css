@@ -126,7 +126,9 @@ body{
 .conteudo ul li{
     margin-left: 25px;
 }
-
+.conteudo ol li{
+    margin-left: 25px;
+}
 /*BODY FOTOS*/
 .fotos{
     margin-top: 30px;
