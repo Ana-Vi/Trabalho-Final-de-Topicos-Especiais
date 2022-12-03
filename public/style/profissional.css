@@ -1,0 +1,34 @@
+.progresso{
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    margin: 20px;
+
+    --progress: 70;
+    width: calc(var(--progress) * 1%);
+    background-color: hsl( calc(var(--progress) * 1.2) , 80%, 50%);
+    
+    animation-name: evolucao;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
+.progresso p{
+    color:white;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#animacao a{
+    text-decoration: none;
+}
+
+@keyframes evolucao{
+    from{
+        width: 1%;
+        background-color: hsl( 1.2 , 80%, 50%);
+    }
+    to{
+        width: 70%;
+        background-color: hsl( 84 , 80%, 50%);
+        
+    }
+}
